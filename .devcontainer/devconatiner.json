@@ -1,0 +1,12 @@
+{
+    "name": "Flask with Conda",
+    "version": "1.0.0",
+    "build": {
+      "commands": [
+        "conda install -c conda-forge conda",
+        "conda create -n flask python",
+        "conda activate flask",
+        "pip install -r requirements.txt"
+      ]
+    }
+  }
